@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla+Tamil+Upright:wght@400;700&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Karla Tamil Upright", sans-serif;
+
+    
+}
+
+body{
+    background-color: #000;
+    height: 100vh;
+    text-align: center;
+}
+
+
+.contenedor {
+    width: 100%;
+    height: auto;
+    
+}
+
+.tarjeta {
+    width: 320px;
+    margin: 15px auto;
+    text-align: center;
+    padding: 30px;
+    background-color: #fff1;
+}
+
+.container_foto {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+h1 {
+    color: #fff;
+}
+
+p {
+    color: #fff;
+}
+
+.enlaces a {
+    background-color: #fffa;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 20px;
+    transition: background-color 0.3s;
+    
+}
+
+.enlaces a:hover {
+    background-color: #fff8;
+}
+
+.redes a {
+    display: inline-block;
+    margin: 10px 13px;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.redes a:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s;
+}
