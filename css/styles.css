@@ -1,19 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla+Tamil+Upright:wght@400;700&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Karla+Tamil+Upright:wght@400;700&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Karla+Tamil+Upright:wght@400;700&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik+Wet+Paint&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Itim&family=Karla+Tamil+Upright:wght@400;700&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik+Wet+Paint&display=swap');
+
+:root {
+    --firts-color: linear-gradient(0deg, rgba(1,5,5,1) 0%, rgba(255,255,255,1) 100%); 
+    --second-color: linear-gradient(90deg, rgba(1,0,22,1) 0%, rgba(6,6,43,1) 47%, rgba(142,142,142,1) 100%);
+    --white-color: #fff
+}
 
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Karla Tamil Upright", sans-serif;
-
-    
 }
 
 body{
-    background-color: #000;
+    background: var(--firts-color);
     height: 100vh;
     text-align: center;
+    overflow: hidden;
 }
 
 
@@ -24,48 +32,73 @@ body{
 }
 
 .tarjeta {
-    width: 320px;
-    margin: 15px auto;
+    width: 350px;
+    margin: 5px auto;
     text-align: center;
     padding: 30px;
-    background-color: #fff1;
+    background: var(--second-color);
+    box-shadow: 0 0 30px #00f5;
+    border-radius: 10px;
+    
 }
 
 .container_foto {
     border-radius: 50%;
     width: 200px;
-    height: 200px;
+    height: 200px; 
 }
 
 h1 {
-    color: #fff;
+    margin-top: 10px;
+    color: #0f07;
+    font-family: "Anton SC", sans-serif;
+
+}
+
+strong {
+    font-family: "Anton SC", sans-serif;
+    color: var(--white-color);
 }
 
 p {
-    color: #fff;
+    color: var(--white-color);
+    font-size: 20px;
+    font-family: "Itim", cursive;
+    margin-bottom: 25px;
+
 }
 
 .enlaces a {
     background-color: #fffa;
-    color: #fff;
+    color: var(--white-color);
     text-decoration: none;
     display: block;
     border-radius: 10px;
     margin: 10px 0;
     padding: 20px;
     transition: background-color 0.3s;
+    font-family: "Rubik Wet Paint", system-ui;
+    color: #000b;
+
     
 }
 
-.enlaces a:hover {
-    background-color: #fff8;
+b {
+    color: #00fb;
 }
+
+.enlaces a:hover {
+    background-color: #fff2;
+}
+
+
 
 .redes a {
     display: inline-block;
-    margin: 10px 13px;
+    margin: 15px 18px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 22px;
+    
 
 }
 
